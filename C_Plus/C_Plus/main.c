@@ -28,7 +28,8 @@ int main(int argc, const char * argv[]) {
   //  list_test();
   //  struct_zhizhenDebug();
   //  subscript_zhizhenDebug();
-    subscript1_zhizhenDebug();
+   // subscript1_zhizhenDebug();
+     moveZhizhen_test();
     return 0;
     
 

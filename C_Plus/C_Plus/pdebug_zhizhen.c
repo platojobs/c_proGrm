@@ -61,7 +61,7 @@ void subscript_zhizhenDebug(void){
     
 }
 
-//
+//TODO: 1. 指针下标
 void subscript1_zhizhenDebug(void){
     
     int a = 36, b = 63, c = 656, i = 0 , *p = &b;
