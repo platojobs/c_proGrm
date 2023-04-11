@@ -26,8 +26,9 @@ int main(int argc, const char * argv[]) {
    // array_test();
    // string_test();
   //  list_test();
-    struct_zhizhenDebug();
-    
+  //  struct_zhizhenDebug();
+  //  subscript_zhizhenDebug();
+    subscript1_zhizhenDebug();
     return 0;
     
 

@@ -41,6 +41,36 @@ void struct_zhizhenDebug(void){
     printf("Hardness Marker Number \n ");
     
     for (pen = p ; pen <= p+2; ++pen) {
-        printf("%4d%8c%8d\n",pen ->hardness,pen->marker,pen->number);
+        printf("%4d%8c%8d\n",pen ->hardness,pen->marker,pen->number);   //  ->结构成员值的一般形式
     }
+}
+
+
+//下标运算
+
+void subscript_zhizhenDebug(void){
+    int a = 36, b = 63, c = 656, i = 0 , *p = &a;
+    for (i = 0; i > -3; i--)
+        printf("%4d", p[i]);    //36  63 656
+    printf("\n");
+    
+    p = &c;
+    for (i = 0; i < 3; i++)
+        printf("%4d",p[i]);   //656  63  36
+    printf("\n");
+    
+}
+
+//
+void subscript1_zhizhenDebug(void){
+    
+    int a = 36, b = 63, c = 656, i = 0 , *p = &b;
+    
+    printf("%d %d %d\n",p[1],p[0],p[-1]); // 36 63 656
+    
+    
+    for (i = 1; i>-2; i--)
+        printf("%d ",p[i]); // 36  63  656
+    printf("\n");
+    
 }
