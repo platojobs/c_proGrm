@@ -74,3 +74,16 @@ void subscript1_zhizhenDebug(void){
     printf("\n");
     
 }
+
+void moveZhizhen_test(void){
+    
+    int a = 88, b = 58 , c = 98 , i = 0;
+    int *p = &a;
+    printf("%p,%p,%p,%p,%p\n",&a,&b,&c,&i,&p);
+    
+    for (i = 0; i<4; i++,p--) {
+        printf("%d\n",*p);
+        
+    }
+    
+}

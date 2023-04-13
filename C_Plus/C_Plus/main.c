@@ -14,6 +14,8 @@
 #include "array_test.h"
 #include "string_test.h"
 #include "list_test.h"
+#include "const_limitZhizhen.h"
+#include "malloc_memerry.h"
 #include <math.h>
 int main(int argc, const char * argv[]) {
    
@@ -29,7 +31,14 @@ int main(int argc, const char * argv[]) {
   //  struct_zhizhenDebug();
   //  subscript_zhizhenDebug();
    // subscript1_zhizhenDebug();
-     moveZhizhen_test();
+   //  moveZhizhen_test();
+   // const_limitDebug();
+   // void_zhizhen();
+    malloc_memerry();
+   
+    
+    
+    
     return 0;
     
 

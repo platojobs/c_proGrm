@@ -17,5 +17,6 @@ void struct_zhizhenDebug(void);
 void subscript_zhizhenDebug(void);
 void subscript1_zhizhenDebug(void);
 
+void moveZhizhen_test(void);
 
 #endif /* pdebug_zhizhen_h */

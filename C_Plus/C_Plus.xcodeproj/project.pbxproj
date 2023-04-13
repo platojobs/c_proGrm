@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F00168429E7D66600DA486A /* const_limitZhizhen.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F00168329E7D66600DA486A /* const_limitZhizhen.c */; };
+		6F00168729E7F0DC00DA486A /* malloc_memerry.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F00168629E7F0DC00DA486A /* malloc_memerry.c */; };
 		6F3C450429D6C29000C8AD1A /* array_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F3C450329D6C29000C8AD1A /* array_test.c */; };
 		6F3C450729D6C4EE00C8AD1A /* string_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F3C450629D6C4EE00C8AD1A /* string_test.c */; };
 		6F3C450A29D6D02600C8AD1A /* list_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F3C450929D6D02600C8AD1A /* list_test.c */; };
@@ -31,6 +33,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6F00168229E7D66600DA486A /* const_limitZhizhen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = const_limitZhizhen.h; sourceTree = "<group>"; };
+		6F00168329E7D66600DA486A /* const_limitZhizhen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = const_limitZhizhen.c; sourceTree = "<group>"; };
+		6F00168529E7F0DC00DA486A /* malloc_memerry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = malloc_memerry.h; sourceTree = "<group>"; };
+		6F00168629E7F0DC00DA486A /* malloc_memerry.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = malloc_memerry.c; sourceTree = "<group>"; };
 		6F3C450229D6C29000C8AD1A /* array_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = array_test.h; sourceTree = "<group>"; };
 		6F3C450329D6C29000C8AD1A /* array_test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = array_test.c; sourceTree = "<group>"; };
 		6F3C450529D6C4EE00C8AD1A /* string_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = string_test.h; sourceTree = "<group>"; };
@@ -96,6 +102,10 @@
 				6FA4A13B29D565C000BA6AC4 /* size_test.c */,
 				6FA4A13729D5212300BA6AC4 /* pdebug_zhizhen.h */,
 				6FA4A13829D5212300BA6AC4 /* pdebug_zhizhen.c */,
+				6F00168229E7D66600DA486A /* const_limitZhizhen.h */,
+				6F00168329E7D66600DA486A /* const_limitZhizhen.c */,
+				6F00168529E7F0DC00DA486A /* malloc_memerry.h */,
+				6F00168629E7F0DC00DA486A /* malloc_memerry.c */,
 				6F6D5E8329D3EE3C003D828A /* print.h */,
 				6F6D5E8429D3EE3C003D828A /* print.c */,
 			);
@@ -161,6 +171,8 @@
 			files = (
 				6F3C450429D6C29000C8AD1A /* array_test.c in Sources */,
 				6FA4A13F29D5677100BA6AC4 /* sizeof_test.c in Sources */,
+				6F00168729E7F0DC00DA486A /* malloc_memerry.c in Sources */,
+				6F00168429E7D66600DA486A /* const_limitZhizhen.c in Sources */,
 				6FA4A13929D5212300BA6AC4 /* pdebug_zhizhen.c in Sources */,
 				6F3C450A29D6D02600C8AD1A /* list_test.c in Sources */,
 				6FB7A98A2861A0BC00916E18 /* main.c in Sources */,
