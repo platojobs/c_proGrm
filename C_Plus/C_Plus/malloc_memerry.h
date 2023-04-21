@@ -13,4 +13,6 @@
 //动态内存分配
 void malloc_memerry(void);
 
+long len_strTest(void);
+
 #endif /* malloc_memerry_h */

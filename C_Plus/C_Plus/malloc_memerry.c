@@ -22,3 +22,19 @@ void malloc_memerry(void){
     printf("%d\n",n);
     
 }
+
+
+long len_strTest(void){
+    
+    char *p , *q;
+    p = q = (char*)malloc(100);
+    printf("请输入:");
+    scanf("%s",q);
+    while (*p != '\0') {
+        p++;
+    }
+    printf("%ld\n",p-q);
+    free(q);
+    return p-q;
+   
+}

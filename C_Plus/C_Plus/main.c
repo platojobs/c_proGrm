@@ -16,6 +16,7 @@
 #include "list_test.h"
 #include "const_limitZhizhen.h"
 #include "malloc_memerry.h"
+#include "input_verification.h"
 #include <math.h>
 int main(int argc, const char * argv[]) {
    
@@ -34,10 +35,11 @@ int main(int argc, const char * argv[]) {
    //  moveZhizhen_test();
    // const_limitDebug();
    // void_zhizhen();
-    malloc_memerry();
+   // malloc_memerry();
    
+   // printf("%ld",input_verification());
     
-    
+    printf("%ld",len_strTest());
     
     return 0;
     
