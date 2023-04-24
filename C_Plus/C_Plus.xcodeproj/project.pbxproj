@@ -14,11 +14,13 @@
 		6F3C450729D6C4EE00C8AD1A /* string_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F3C450629D6C4EE00C8AD1A /* string_test.c */; };
 		6F3C450A29D6D02600C8AD1A /* list_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F3C450929D6D02600C8AD1A /* list_test.c */; };
 		6F6D5E8529D3EE3C003D828A /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F6D5E8429D3EE3C003D828A /* print.c */; };
+		6F8F0E1629F678D90055B22D /* pointer_Move.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F0E1529F678D90055B22D /* pointer_Move.c */; };
 		6FA4A13929D5212300BA6AC4 /* pdebug_zhizhen.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4A13829D5212300BA6AC4 /* pdebug_zhizhen.c */; };
 		6FA4A13C29D565C000BA6AC4 /* size_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4A13B29D565C000BA6AC4 /* size_test.c */; };
 		6FA4A13F29D5677100BA6AC4 /* sizeof_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4A13E29D5677100BA6AC4 /* sizeof_test.c */; };
 		6FA4A14229D5680400BA6AC4 /* priority_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4A14129D5680400BA6AC4 /* priority_test.c */; };
 		6FB7A98A2861A0BC00916E18 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7A9892861A0BC00916E18 /* main.c */; };
+		6FD31BA629F26535004D920A /* caidan.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FD31BA529F26535004D920A /* caidan.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +50,8 @@
 		6F3C450929D6D02600C8AD1A /* list_test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = list_test.c; sourceTree = "<group>"; };
 		6F6D5E8329D3EE3C003D828A /* print.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = print.h; sourceTree = "<group>"; };
 		6F6D5E8429D3EE3C003D828A /* print.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = print.c; sourceTree = "<group>"; };
+		6F8F0E1429F678D90055B22D /* pointer_Move.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pointer_Move.h; sourceTree = "<group>"; };
+		6F8F0E1529F678D90055B22D /* pointer_Move.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pointer_Move.c; sourceTree = "<group>"; };
 		6FA4A13729D5212300BA6AC4 /* pdebug_zhizhen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pdebug_zhizhen.h; sourceTree = "<group>"; };
 		6FA4A13829D5212300BA6AC4 /* pdebug_zhizhen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pdebug_zhizhen.c; sourceTree = "<group>"; };
 		6FA4A13A29D565C000BA6AC4 /* size_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = size_test.h; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 		6FA4A14129D5680400BA6AC4 /* priority_test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = priority_test.c; sourceTree = "<group>"; };
 		6FB7A9862861A0BC00916E18 /* C_Plus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_Plus; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB7A9892861A0BC00916E18 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		6FD31BA429F26535004D920A /* caidan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = caidan.h; sourceTree = "<group>"; };
+		6FD31BA529F26535004D920A /* caidan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = caidan.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +119,10 @@
 				6F00168629E7F0DC00DA486A /* malloc_memerry.c */,
 				6F6D5E8329D3EE3C003D828A /* print.h */,
 				6F6D5E8429D3EE3C003D828A /* print.c */,
+				6FD31BA429F26535004D920A /* caidan.h */,
+				6FD31BA529F26535004D920A /* caidan.c */,
+				6F8F0E1429F678D90055B22D /* pointer_Move.h */,
+				6F8F0E1529F678D90055B22D /* pointer_Move.c */,
 			);
 			path = C_Plus;
 			sourceTree = "<group>";
@@ -174,7 +184,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FD31BA629F26535004D920A /* caidan.c in Sources */,
 				6F3C450429D6C29000C8AD1A /* array_test.c in Sources */,
+				6F8F0E1629F678D90055B22D /* pointer_Move.c in Sources */,
 				6FA4A13F29D5677100BA6AC4 /* sizeof_test.c in Sources */,
 				6F00168729E7F0DC00DA486A /* malloc_memerry.c in Sources */,
 				6F00168429E7D66600DA486A /* const_limitZhizhen.c in Sources */,

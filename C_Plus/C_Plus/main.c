@@ -18,6 +18,8 @@
 #include "malloc_memerry.h"
 #include "input_verification.h"
 #include <math.h>
+#include "caidan.h"
+#include "pointer_Move.h"
 int main(int argc, const char * argv[]) {
    
     
@@ -39,7 +41,10 @@ int main(int argc, const char * argv[]) {
    
    // printf("%ld",input_verification());
     
-    printf("%ld",len_strTest());
+  //  printf("%ld",len_strTest());
+   //   choice_test();
+    pointer_move();
+
     
     return 0;
     
